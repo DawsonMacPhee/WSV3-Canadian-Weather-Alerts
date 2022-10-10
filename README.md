@@ -1,6 +1,6 @@
 ## WSV3 Canadian Weather Alerts Fileserver
 
-This project takes Canadian weather alerts, converts them to a format usable by WSV3, and then hosts the files on a GitHub Pages fileserver for easy importing into the program.
+This project takes Canadian weather alerts, converts them to a format usable by WSV3 (`https://wsv3.com`), and then hosts the files on a GitHub Pages fileserver for easy importing into the program.
 
 ### Usage
 
