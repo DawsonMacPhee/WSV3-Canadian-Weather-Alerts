@@ -16,4 +16,4 @@ This project takes Canadian weather alerts, converts them to a format usable by 
 
 ### Help
 
-If the program errors out for any reason, please raise a ticket stating what the error is and attach the CAP files you have in the `./cap` directory. NOTE: WSV3 loads cap files hourly - meaning that you'll need to run the python script once an hour with the most up to date CAP files in order to generate the correct warning file name.
+If the program errors out for any reason, please raise a ticket stating what the error is and attach the CAP files you have in the `./cap` directory. NOTE: WSV3 loads data hourly - meaning that you'll need to run the python script once an hour with the most up to date CAP files in order to generate the correct warning file name.
