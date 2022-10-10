@@ -11,5 +11,5 @@ This project takes Canadian weather alerts, converts them to a format usable by 
 - Place the downloaded files into the `./cap` directory and remove the old CAP files
 - Run the python script using `python3 ./parse_alerts.py`
 - Push to the repo using `git add .` then `git commit -m "Updated Alerts"` then `git push`
-- Check that GitHub pages deployed by locating your newly generated warning files at `https://YOUR_USERNAME.github.io/canada_weather_alerts/` (ex. `https://dawsonmacphee.github.io/canada_weather_alerts/`) NOTE: It may take a couple minutes for the updates to deploy
-- Launch WSV3 and set up `Severe Warnings` -> `Data` to import via the `Custom severe warnings server` option using the url `https://YOUR_USERNAME.github.io/canada_weather_alerts/resources/` (ex. `https://dawsonmacphee.github.io/canada_weather_alerts/resources/`)
+- Check that GitHub pages deployed by locating your newly generated warning files at `https://YOUR_USERNAME.github.io/WSV3-Canadian-Weather-Alerts/` (ex. `https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/`) NOTE: It may take a couple minutes for the updates to deploy
+- Launch WSV3 and set up `Severe Warnings` -> `Data` to import via the `Custom severe warnings server` option using the url `https://YOUR_USERNAME.github.io/WSV3-Canadian-Weather-Alerts/resources/` (ex. `https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/resources/`)
