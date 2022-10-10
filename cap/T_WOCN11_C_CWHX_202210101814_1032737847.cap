@@ -1,0 +1,1013 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.124.1032737847.2022</identifier>
+    <sender>cap-pac@canada.ca</sender>
+    <sent>2022-10-10T18:15:20-00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>Env. Can. - Can. Met. Ctr. – Montréal</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.0</code>
+    <code>layer:WPAM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.1</code>
+    <code>layer:SOREM:2.0</code>
+    <note>Service Notice - June 2022: The Environment and Climate Change Canada (ECCC) CAP Service periodically undergoes changes and additions as the business of alerting evolves. For June 2022...1) New changes to the Wireless Public Alerting Message Layer (WPAM) to take advantage of the new UpdateX feature recently deployed in the Canadian Cell Broadcasting Environment, 2) minor improvements in the audience facing wording of messages. For more information on these changes and other additions, you are invited to subscribe to the following mailing list: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info | Notification de service - juin 2022: Le service du PAC d’Environnement et Changement climatique Canada (ECCC) subit périodiquement des changements et ajouts à mesure que le système d’alerte évolue. Pour juin 2022... 1) Il y a de nouveaux changements à la couche du Service d’alertes sans fil au public (WPAM) afin de profiter des avantages des nouvelles fonctionnalités d’UpdateX récemment déployées dans l’environnement de diffusion sans fil canadien, 2) des améliorations mineures à la formulation de messages destinés à l’auditoire. Pour plus d’informations sur ces changements ainsi que sur d’autres ajouts, vous êtes invités à vous inscrire à la liste de diffusion suivante: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info</note>
+    <references>cap-pac@canada.ca,urn:oid:2.49.0.1.124.1601135595.2022,2022-10-08T07:55:35-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1983629294.2022,2022-10-08T07:56:35-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1509655341.2022,2022-10-08T14:39:20-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3303513270.2022,2022-10-08T18:45:35-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.4271434226.2022,2022-10-09T00:56:59-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2217145266.2022,2022-10-09T07:49:44-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.4182915746.2022,2022-10-09T13:46:25-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0682254148.2022,2022-10-09T13:47:25-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1752552267.2022,2022-10-09T18:36:08-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.4143290151.2022,2022-10-09T18:37:08-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3683618097.2022,2022-10-10T00:53:36-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1355227214.2022,2022-10-10T07:48:29-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2597534288.2022,2022-10-10T13:27:29-00:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Met</category>
+        <event>frost</event>
+        <responseType>Monitor</responseType>
+        <urgency>Future</urgency>
+        <severity>Moderate</severity>
+        <certainty>Possible</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>frost</value>
+        </eventCode>
+        <effective>2022-10-10T18:14:20-00:00</effective>
+        <expires>2022-10-11T10:14:20-00:00</expires>
+        <senderName>Environment Canada</senderName>
+        <headline>frost advisory in effect</headline>
+        <description>
+Frost may damage some crops in frost-prone areas.
+
+Minimum temperatures: Zero to plus 4 C (coolest in low lying areas).
+
+Time span: early Tuesday morning.
+
+Remarks: Patchy frost is expected to form as clear skies and light winds coincide with cool temperatures, especially in low lying areas.
+
+###
+
+Frost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.
+
+Please continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@ec.gc.ca or tweet reports using #NSStorm.
+</description>
+        <instruction/>
+        <web>http://weather.gc.ca/warnings/index_e.html?prov=ns</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>advisory</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20221010181420307/WO_11_71_CWHX/FTA/139243071710995238202210080506_WO_11_71_CWHX/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:6433 M:37403 C:64603</value>
+        </parameter>
+        <parameter>
+            <valueName>profile:CAP-CP:0.4:MinorChange</valueName>
+            <value>text</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>frost advisory</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Nova Scotia</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_11_71_CWHX</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value/>
+        </parameter>
+        <area>
+            <areaDesc>Kings County</areaDesc>
+            <polygon>45.3454,-64.5186 45.3291,-64.3226 45.2662,-64.2264 45.1355,-64.2458 45.077,-64.1737 45.0719,-64.1777 44.9011,-64.434 44.8377,-64.5243 44.838,-64.5248 44.8422,-64.5316 44.6652,-64.7714 44.8696,-64.9165 45.1243,-65.0577 45.3454,-64.5186</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1207</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Annapolis County</areaDesc>
+            <polygon>44.8889,-64.8921 44.6652,-64.7714 44.5351,-64.9461 44.4407,-65.0755 44.4446,-65.1623 44.4122,-65.1856 44.3106,-65.3296 44.6859,-65.7604 44.8139,-65.8843 45.2427,-65.0987 45.1243,-65.0577 44.8889,-64.8921</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Digby County</areaDesc>
+            <polygon>44.3055,-66.5371 44.8139,-65.8843 44.6859,-65.7604 44.3106,-65.3296 44.2277,-65.3923 44.1686,-65.6225 44.1327,-65.8891 44.0644,-66.0177 44.0035,-66.1537 43.9343,-66.2609 44.3055,-66.5371</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1203</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205002</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Lunenburg County</areaDesc>
+            <polygon>44.4146,-64.8731 44.4201,-64.8653 44.458,-64.8546 44.5351,-64.9461 44.6652,-64.7714 44.8422,-64.5316 44.838,-64.5248 44.8377,-64.5243 44.9011,-64.434 44.7703,-64.2554 44.762,-64.2442 44.6356,-64.0753 44.6309,-64.0684 44.6294,-64.0653 44.6224,-64.0523 44.576,-64.005 44.4641,-63.9672 44.1629,-64.2742 44.0841,-64.4838 44.1157,-64.5022 44.1403,-64.5276 44.1453,-64.5586 44.4146,-64.8731</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1206</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Queens County</areaDesc>
+            <polygon>43.7582,-64.8863 43.7854,-64.9135 43.8279,-64.9372 43.8712,-64.9733 44.0391,-65.1857 44.2277,-65.3923 44.3106,-65.3296 44.4122,-65.1856 44.4446,-65.1623 44.4407,-65.0755 44.5351,-64.9461 44.458,-64.8546 44.4201,-64.8653 44.4146,-64.8731 44.1453,-64.5586 44.1403,-64.5276 44.1157,-64.5022 44.0841,-64.4838 43.7582,-64.8863</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011500</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1204</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Shelburne County</areaDesc>
+            <polygon>43.3204,-65.6057 43.4069,-65.779 43.5481,-65.8528 43.6006,-65.7848 43.6055,-65.7241 43.6446,-65.6121 43.7465,-65.6514 43.9156,-65.5705 44.2277,-65.3923 44.0447,-65.1575 43.8712,-64.9733 43.8279,-64.9372 43.7854,-64.9135 43.7582,-64.8863 43.3204,-65.6057</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011600</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1201</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Yarmouth County</areaDesc>
+            <polygon>43.8302,-66.2464 43.9343,-66.2609 44.0035,-66.1537 44.0753,-66.0272 44.1327,-65.8891 44.193,-65.6271 44.2277,-65.3923 43.9156,-65.5705 43.7465,-65.6514 43.6446,-65.6121 43.6055,-65.7241 43.6006,-65.7848 43.5481,-65.8528 43.613,-66.0816 43.8302,-66.2464</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011700</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1202</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Cumberland County - Minas Shore</areaDesc>
+            <polygon>45.3291,-64.3226 45.3454,-64.5186 45.1243,-65.0577 45.2427,-65.0987 45.3687,-65.1181 45.4213,-65.024 45.4302,-65.0077 45.4771,-64.9179 45.7165,-64.4894 45.8389,-64.3392 45.8312,-64.3108 45.8124,-64.2829 45.7716,-64.3222 45.7652,-64.3081 45.7551,-64.278 45.7537,-64.2716 45.7495,-64.2655 45.7465,-64.2631 45.7462,-64.263 45.7444,-64.2599 45.7425,-64.2567 45.7424,-64.2566 45.7374,-64.253 45.7344,-64.2519 45.7337,-64.2514 45.7316,-64.2494 45.7337,-64.2461 45.7369,-64.2441 45.5491,-63.5679 45.5471,-63.5606 45.4852,-63.7373 45.5401,-63.7671 45.5423,-63.8306 45.5517,-64.1362 45.5074,-64.1169 45.4497,-64.1211 45.4066,-64.1139 45.4041,-64.1133 45.2833,-64.1149 45.2662,-64.2264 45.3291,-64.3226</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211002</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211014</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Cumberland County North and Cobequid Pass</areaDesc>
+            <polygon>45.7572,-63.3802 45.7572,-63.3886 45.7607,-63.415 45.6794,-63.4848 45.6281,-63.4587 45.5491,-63.5679 45.7369,-64.2441 45.7337,-64.2461 45.7316,-64.2494 45.7337,-64.2514 45.7344,-64.2519 45.7374,-64.253 45.7424,-64.2566 45.7425,-64.2567 45.7444,-64.2599 45.7462,-64.263 45.7465,-64.2631 45.7495,-64.2655 45.7537,-64.2716 45.7551,-64.278 45.7652,-64.3081 45.7716,-64.3222 45.8124,-64.2829 45.8312,-64.3108 45.9031,-64.2737 45.9284,-64.2347 45.9161,-64.2062 45.939,-64.1849 45.9478,-64.1766 45.9539,-64.1708 45.9608,-64.1646 45.9753,-64.1591 45.9784,-64.1528 45.9799,-64.1496 45.9793,-64.1364 45.979,-64.1234 45.9786,-64.1106 45.9775,-64.0795 45.9772,-64.0717 45.9947,-64.0685 45.9934,-64.0425 46.0039,-64.0407 46.0357,-63.8518 45.9185,-63.7346 45.9101,-63.4368 45.811,-63.1906 45.7546,-63.3081 45.7619,-63.3476 45.7572,-63.3802</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211011</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211012</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211014</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Colchester County - Cobequid Bay</areaDesc>
+            <polygon>45.3679,-63.3459 45.3663,-63.3609 45.3655,-63.3687 45.362,-63.4014 45.3539,-63.4779 45.3486,-63.5272 45.3433,-63.5763 45.2833,-64.1149 45.4041,-64.1133 45.4066,-64.1139 45.4497,-64.1211 45.5074,-64.1169 45.5517,-64.1362 45.5423,-63.8306 45.5401,-63.7671 45.4852,-63.7373 45.5471,-63.5606 45.4747,-63.3666 45.3714,-63.3465 45.3679,-63.3459</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210012</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Colchester County North</areaDesc>
+            <polygon>45.7572,-63.3886 45.7572,-63.3802 45.7619,-63.3476 45.7546,-63.3081 45.811,-63.1906 45.7512,-63.1498 45.7495,-63.1497 45.7457,-63.1475 45.7363,-63.1424 45.4831,-63.0045 45.3695,-63.3411 45.3679,-63.3459 45.3714,-63.3465 45.4747,-63.3666 45.5471,-63.5606 45.5491,-63.5679 45.6281,-63.4587 45.6794,-63.4848 45.7607,-63.415 45.7572,-63.3886</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210012</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Hants County</areaDesc>
+            <polygon>45.2833,-64.1149 45.3433,-63.5763 45.3486,-63.5272 45.3539,-63.4779 45.18,-63.3321 45.0209,-63.3573 44.9886,-63.46 44.9693,-63.5208 44.9528,-63.5724 44.8965,-63.7597 44.8025,-63.8291 44.762,-64.2442 44.7703,-64.2554 44.9011,-64.434 45.0719,-64.1777 45.077,-64.1737 45.1355,-64.2458 45.2662,-64.2264 45.2833,-64.1149</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012500</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1208</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Colchester County - Truro and south</areaDesc>
+            <polygon>44.9886,-63.46 44.9693,-63.5208 45.0724,-63.4395 45.1535,-63.4414 45.3433,-63.5763 45.3486,-63.5272 45.3539,-63.4779 45.362,-63.4014 45.3655,-63.3687 45.3663,-63.3609 45.3679,-63.3459 45.3695,-63.3411 45.4831,-63.0045 45.464,-62.9782 45.2736,-62.7178 45.2704,-62.7118 45.2683,-62.7148 45.2192,-62.7945 45.2036,-62.8749 45.0209,-63.3573 44.9886,-63.46</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012600</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210002</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210003</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210008</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Halifax Metro and Halifax County West</areaDesc>
+            <polygon>44.9886,-63.46 44.736,-63.2515 44.7352,-63.2511 44.7163,-63.2405 44.6376,-63.2105 44.6121,-63.2658 44.3309,-63.6521 44.4641,-63.9672 44.576,-64.005 44.6224,-64.0523 44.6294,-64.0653 44.6309,-64.0684 44.6356,-64.0753 44.762,-64.2442 44.8025,-63.8291 44.8965,-63.7597 44.9416,-63.657 44.9693,-63.5208 44.9886,-63.46</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012700</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209019</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209029</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209034</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Halifax County - east of Porters Lake</areaDesc>
+            <polygon>45.0209,-63.3573 45.2036,-62.8749 45.2503,-62.8428 45.2704,-62.7118 44.9754,-62.1655 44.9739,-62.1647 44.9424,-62.1548 44.8797,-62.0547 44.6081,-62.9403 44.6376,-63.2105 44.7163,-63.2405 44.7352,-63.2511 44.736,-63.2515 44.9886,-63.46 45.0209,-63.3573</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012800</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209034</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209038</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Pictou County</areaDesc>
+            <polygon>45.2736,-62.7178 45.464,-62.9782 45.4831,-63.0045 45.7363,-63.1424 45.7457,-63.1475 45.7495,-63.1497 45.7512,-63.1498 45.811,-63.1906 45.8448,-63.1438 45.8648,-62.2998 45.7225,-62.2362 45.7216,-62.2353 45.68,-62.2179 45.3736,-62.0904 45.2947,-62.6235 45.2787,-62.6442 45.2704,-62.7118 45.2736,-62.7178</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>013100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212004</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212011</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212014</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212016</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212019</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Guysborough County</areaDesc>
+            <polygon>45.2947,-62.6235 45.3736,-62.0904 45.3941,-61.949 45.4868,-61.7299 45.5024,-61.733 45.525,-61.7374 45.6221,-61.5031 45.6492,-61.4371 45.6526,-61.4305 45.6335,-61.3951 45.5863,-61.3709 45.578,-61.3587 45.5429,-61.2879 45.5263,-61.2399 45.3595,-60.9214 45.2127,-60.9193 45.1755,-61.1946 44.8797,-62.0547 44.9424,-62.1548 44.9739,-62.1647 44.9754,-62.1655 45.2704,-62.7118 45.2911,-62.6877 45.2947,-62.6235</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>013200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1213</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Antigonish County</areaDesc>
+            <polygon>45.7753,-61.8482 45.7266,-61.7021 45.737,-61.5101 45.6526,-61.4305 45.6492,-61.4371 45.6221,-61.5031 45.525,-61.7374 45.5024,-61.733 45.4868,-61.7299 45.3941,-61.949 45.3736,-62.0904 45.68,-62.2179 45.7216,-62.2353 45.7225,-62.2362 45.8648,-62.2998 45.94,-61.8931 45.7753,-61.8482</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>013300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1214</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Richmond County</areaDesc>
+            <polygon>45.6675,-61.2321 45.7054,-61.1647 45.8719,-60.8436 45.8236,-60.6728 45.7243,-60.227 45.7073,-60.1685 45.5153,-60.8348 45.3945,-60.8672 45.3595,-60.9214 45.5263,-61.2399 45.5429,-61.2879 45.578,-61.3587 45.5863,-61.3709 45.5953,-61.36 45.6675,-61.2321</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>014100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1216</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Inverness County - south of Mabou</areaDesc>
+            <polygon>45.8719,-60.8436 45.7054,-61.1647 45.6675,-61.2321 45.5953,-61.36 45.5863,-61.3709 45.6335,-61.3951 45.6526,-61.4305 45.737,-61.5101 46.0096,-61.6947 46.0993,-61.6265 46.0971,-61.4829 46.1152,-61.0483 46.0016,-60.9766 46.0041,-60.9641 46.0478,-60.9256 46.0675,-60.8568 46.0638,-60.8098 46.0869,-60.7119 46.0663,-60.7214 45.9777,-60.789 45.8719,-60.8436</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>014200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215002</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1218001</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Sydney Metro and Cape Breton County</areaDesc>
+            <polygon>46.0863,-60.6864 46.1338,-60.6021 46.1916,-60.5551 46.2258,-60.4991 46.2948,-60.4173 46.3958,-60.3274 46.2624,-59.8902 46.0154,-59.538 45.7073,-60.1685 45.7243,-60.227 45.8236,-60.6728 45.8719,-60.8436 45.9777,-60.789 46.0663,-60.7214 46.0869,-60.7119 46.0863,-60.6864</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>014500</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1217</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1218001</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Met</category>
+        <event>gel</event>
+        <responseType>Monitor</responseType>
+        <urgency>Future</urgency>
+        <severity>Moderate</severity>
+        <certainty>Possible</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>frost</value>
+        </eventCode>
+        <effective>2022-10-10T18:14:20-00:00</effective>
+        <expires>2022-10-11T10:14:20-00:00</expires>
+        <senderName>Environnement Canada</senderName>
+        <headline>avis de gel en vigueur</headline>
+        <description>
+Le gel pourrait endommager certaines cultures dans les zones sujettes au gel.
+
+Températures minimales : de zéro à plus 4 degrés Celsius (temps le plus frais dans les basses terres).
+
+Période : tôt mardi matin.
+
+Remarques : du gel épars devrait se former sous l'effet conjoint d'un ciel dégagé, de vents légers et de températures basses, particulièrement dans les basses terres.
+
+###
+
+Des avis de gel sont émis lorsqu’on prévoit que le mercure atteindra le point de congélation pendant la saison de croissance des cultures et que les plantes et les cultures risquent d’être endommagées ou détruites.
+
+Veuillez continuer à surveiller les alertes et les prévisions émises par Environnement Canada. Pour signaler du temps violent, envoyez un courriel à meteoNS@ec.gc.ca ou publiez un gazouillis en utilisant le mot-clic #NSMeteo.
+</description>
+        <instruction/>
+        <web>http://meteo.gc.ca/warnings/index_f.html?prov=ns</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>advisory</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20221010181420307/WO_11_71_CWHX/FTA/139243071710995238202210080506_WO_11_71_CWHX/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:6433 M:37403 C:64603</value>
+        </parameter>
+        <parameter>
+            <valueName>profile:CAP-CP:0.4:MinorChange</valueName>
+            <value>text</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>avis de gel</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Nouvelle-Écosse</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_11_71_CWHX</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value/>
+        </parameter>
+        <area>
+            <areaDesc>comté de Kings</areaDesc>
+            <polygon>45.3454,-64.5186 45.3291,-64.3226 45.2662,-64.2264 45.1355,-64.2458 45.077,-64.1737 45.0719,-64.1777 44.9011,-64.434 44.8377,-64.5243 44.838,-64.5248 44.8422,-64.5316 44.6652,-64.7714 44.8696,-64.9165 45.1243,-65.0577 45.3454,-64.5186</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1207</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté d'Annapolis</areaDesc>
+            <polygon>44.8889,-64.8921 44.6652,-64.7714 44.5351,-64.9461 44.4407,-65.0755 44.4446,-65.1623 44.4122,-65.1856 44.3106,-65.3296 44.6859,-65.7604 44.8139,-65.8843 45.2427,-65.0987 45.1243,-65.0577 44.8889,-64.8921</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Digby</areaDesc>
+            <polygon>44.3055,-66.5371 44.8139,-65.8843 44.6859,-65.7604 44.3106,-65.3296 44.2277,-65.3923 44.1686,-65.6225 44.1327,-65.8891 44.0644,-66.0177 44.0035,-66.1537 43.9343,-66.2609 44.3055,-66.5371</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1203</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205002</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Lunenburg</areaDesc>
+            <polygon>44.4146,-64.8731 44.4201,-64.8653 44.458,-64.8546 44.5351,-64.9461 44.6652,-64.7714 44.8422,-64.5316 44.838,-64.5248 44.8377,-64.5243 44.9011,-64.434 44.7703,-64.2554 44.762,-64.2442 44.6356,-64.0753 44.6309,-64.0684 44.6294,-64.0653 44.6224,-64.0523 44.576,-64.005 44.4641,-63.9672 44.1629,-64.2742 44.0841,-64.4838 44.1157,-64.5022 44.1403,-64.5276 44.1453,-64.5586 44.4146,-64.8731</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1206</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Queens</areaDesc>
+            <polygon>43.7582,-64.8863 43.7854,-64.9135 43.8279,-64.9372 43.8712,-64.9733 44.0391,-65.1857 44.2277,-65.3923 44.3106,-65.3296 44.4122,-65.1856 44.4446,-65.1623 44.4407,-65.0755 44.5351,-64.9461 44.458,-64.8546 44.4201,-64.8653 44.4146,-64.8731 44.1453,-64.5586 44.1403,-64.5276 44.1157,-64.5022 44.0841,-64.4838 43.7582,-64.8863</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011500</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1204</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Shelburne</areaDesc>
+            <polygon>43.3204,-65.6057 43.4069,-65.779 43.5481,-65.8528 43.6006,-65.7848 43.6055,-65.7241 43.6446,-65.6121 43.7465,-65.6514 43.9156,-65.5705 44.2277,-65.3923 44.0447,-65.1575 43.8712,-64.9733 43.8279,-64.9372 43.7854,-64.9135 43.7582,-64.8863 43.3204,-65.6057</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011600</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1201</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Yarmouth</areaDesc>
+            <polygon>43.8302,-66.2464 43.9343,-66.2609 44.0035,-66.1537 44.0753,-66.0272 44.1327,-65.8891 44.193,-65.6271 44.2277,-65.3923 43.9156,-65.5705 43.7465,-65.6514 43.6446,-65.6121 43.6055,-65.7241 43.6006,-65.7848 43.5481,-65.8528 43.613,-66.0816 43.8302,-66.2464</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011700</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1202</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Cumberland - côte du bassin Minas</areaDesc>
+            <polygon>45.3291,-64.3226 45.3454,-64.5186 45.1243,-65.0577 45.2427,-65.0987 45.3687,-65.1181 45.4213,-65.024 45.4302,-65.0077 45.4771,-64.9179 45.7165,-64.4894 45.8389,-64.3392 45.8312,-64.3108 45.8124,-64.2829 45.7716,-64.3222 45.7652,-64.3081 45.7551,-64.278 45.7537,-64.2716 45.7495,-64.2655 45.7465,-64.2631 45.7462,-64.263 45.7444,-64.2599 45.7425,-64.2567 45.7424,-64.2566 45.7374,-64.253 45.7344,-64.2519 45.7337,-64.2514 45.7316,-64.2494 45.7337,-64.2461 45.7369,-64.2441 45.5491,-63.5679 45.5471,-63.5606 45.4852,-63.7373 45.5401,-63.7671 45.5423,-63.8306 45.5517,-64.1362 45.5074,-64.1169 45.4497,-64.1211 45.4066,-64.1139 45.4041,-64.1133 45.2833,-64.1149 45.2662,-64.2264 45.3291,-64.3226</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211002</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211014</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>nord du comté de Cumberland et passage de Cobequid</areaDesc>
+            <polygon>45.7572,-63.3802 45.7572,-63.3886 45.7607,-63.415 45.6794,-63.4848 45.6281,-63.4587 45.5491,-63.5679 45.7369,-64.2441 45.7337,-64.2461 45.7316,-64.2494 45.7337,-64.2514 45.7344,-64.2519 45.7374,-64.253 45.7424,-64.2566 45.7425,-64.2567 45.7444,-64.2599 45.7462,-64.263 45.7465,-64.2631 45.7495,-64.2655 45.7537,-64.2716 45.7551,-64.278 45.7652,-64.3081 45.7716,-64.3222 45.8124,-64.2829 45.8312,-64.3108 45.9031,-64.2737 45.9284,-64.2347 45.9161,-64.2062 45.939,-64.1849 45.9478,-64.1766 45.9539,-64.1708 45.9608,-64.1646 45.9753,-64.1591 45.9784,-64.1528 45.9799,-64.1496 45.9793,-64.1364 45.979,-64.1234 45.9786,-64.1106 45.9775,-64.0795 45.9772,-64.0717 45.9947,-64.0685 45.9934,-64.0425 46.0039,-64.0407 46.0357,-63.8518 45.9185,-63.7346 45.9101,-63.4368 45.811,-63.1906 45.7546,-63.3081 45.7619,-63.3476 45.7572,-63.3802</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211011</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211012</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1211014</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Colchester - baie de Cobequid</areaDesc>
+            <polygon>45.3679,-63.3459 45.3663,-63.3609 45.3655,-63.3687 45.362,-63.4014 45.3539,-63.4779 45.3486,-63.5272 45.3433,-63.5763 45.2833,-64.1149 45.4041,-64.1133 45.4066,-64.1139 45.4497,-64.1211 45.5074,-64.1169 45.5517,-64.1362 45.5423,-63.8306 45.5401,-63.7671 45.4852,-63.7373 45.5471,-63.5606 45.4747,-63.3666 45.3714,-63.3465 45.3679,-63.3459</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210012</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>nord du comté de Colchester</areaDesc>
+            <polygon>45.7572,-63.3886 45.7572,-63.3802 45.7619,-63.3476 45.7546,-63.3081 45.811,-63.1906 45.7512,-63.1498 45.7495,-63.1497 45.7457,-63.1475 45.7363,-63.1424 45.4831,-63.0045 45.3695,-63.3411 45.3679,-63.3459 45.3714,-63.3465 45.4747,-63.3666 45.5471,-63.5606 45.5491,-63.5679 45.6281,-63.4587 45.6794,-63.4848 45.7607,-63.415 45.7572,-63.3886</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210012</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Hants</areaDesc>
+            <polygon>45.2833,-64.1149 45.3433,-63.5763 45.3486,-63.5272 45.3539,-63.4779 45.18,-63.3321 45.0209,-63.3573 44.9886,-63.46 44.9693,-63.5208 44.9528,-63.5724 44.8965,-63.7597 44.8025,-63.8291 44.762,-64.2442 44.7703,-64.2554 44.9011,-64.434 45.0719,-64.1777 45.077,-64.1737 45.1355,-64.2458 45.2662,-64.2264 45.2833,-64.1149</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012500</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1208</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Colchester - Truro et au sud</areaDesc>
+            <polygon>44.9886,-63.46 44.9693,-63.5208 45.0724,-63.4395 45.1535,-63.4414 45.3433,-63.5763 45.3486,-63.5272 45.3539,-63.4779 45.362,-63.4014 45.3655,-63.3687 45.3663,-63.3609 45.3679,-63.3459 45.3695,-63.3411 45.4831,-63.0045 45.464,-62.9782 45.2736,-62.7178 45.2704,-62.7118 45.2683,-62.7148 45.2192,-62.7945 45.2036,-62.8749 45.0209,-63.3573 44.9886,-63.46</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012600</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210002</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210003</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1210008</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>ville d'Halifax et l'ouest du comté d'Halifax</areaDesc>
+            <polygon>44.9886,-63.46 44.736,-63.2515 44.7352,-63.2511 44.7163,-63.2405 44.6376,-63.2105 44.6121,-63.2658 44.3309,-63.6521 44.4641,-63.9672 44.576,-64.005 44.6224,-64.0523 44.6294,-64.0653 44.6309,-64.0684 44.6356,-64.0753 44.762,-64.2442 44.8025,-63.8291 44.8965,-63.7597 44.9416,-63.657 44.9693,-63.5208 44.9886,-63.46</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012700</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209019</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209029</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209034</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté d'Halifax - à l'est du lac Porters</areaDesc>
+            <polygon>45.0209,-63.3573 45.2036,-62.8749 45.2503,-62.8428 45.2704,-62.7118 44.9754,-62.1655 44.9739,-62.1647 44.9424,-62.1548 44.8797,-62.0547 44.6081,-62.9403 44.6376,-63.2105 44.7163,-63.2405 44.7352,-63.2511 44.736,-63.2515 44.9886,-63.46 45.0209,-63.3573</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>012800</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209034</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1209038</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Pictou</areaDesc>
+            <polygon>45.2736,-62.7178 45.464,-62.9782 45.4831,-63.0045 45.7363,-63.1424 45.7457,-63.1475 45.7495,-63.1497 45.7512,-63.1498 45.811,-63.1906 45.8448,-63.1438 45.8648,-62.2998 45.7225,-62.2362 45.7216,-62.2353 45.68,-62.2179 45.3736,-62.0904 45.2947,-62.6235 45.2787,-62.6442 45.2704,-62.7118 45.2736,-62.7178</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>013100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212004</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212011</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212014</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212016</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1212019</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Guysborough</areaDesc>
+            <polygon>45.2947,-62.6235 45.3736,-62.0904 45.3941,-61.949 45.4868,-61.7299 45.5024,-61.733 45.525,-61.7374 45.6221,-61.5031 45.6492,-61.4371 45.6526,-61.4305 45.6335,-61.3951 45.5863,-61.3709 45.578,-61.3587 45.5429,-61.2879 45.5263,-61.2399 45.3595,-60.9214 45.2127,-60.9193 45.1755,-61.1946 44.8797,-62.0547 44.9424,-62.1548 44.9739,-62.1647 44.9754,-62.1655 45.2704,-62.7118 45.2911,-62.6877 45.2947,-62.6235</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>013200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1213</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté d'Antigonish</areaDesc>
+            <polygon>45.7753,-61.8482 45.7266,-61.7021 45.737,-61.5101 45.6526,-61.4305 45.6492,-61.4371 45.6221,-61.5031 45.525,-61.7374 45.5024,-61.733 45.4868,-61.7299 45.3941,-61.949 45.3736,-62.0904 45.68,-62.2179 45.7216,-62.2353 45.7225,-62.2362 45.8648,-62.2998 45.94,-61.8931 45.7753,-61.8482</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>013300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1214</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Richmond</areaDesc>
+            <polygon>45.6675,-61.2321 45.7054,-61.1647 45.8719,-60.8436 45.8236,-60.6728 45.7243,-60.227 45.7073,-60.1685 45.5153,-60.8348 45.3945,-60.8672 45.3595,-60.9214 45.5263,-61.2399 45.5429,-61.2879 45.578,-61.3587 45.5863,-61.3709 45.5953,-61.36 45.6675,-61.2321</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>014100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1216</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté d'Inverness - au sud de Mabou</areaDesc>
+            <polygon>45.8719,-60.8436 45.7054,-61.1647 45.6675,-61.2321 45.5953,-61.36 45.5863,-61.3709 45.6335,-61.3951 45.6526,-61.4305 45.737,-61.5101 46.0096,-61.6947 46.0993,-61.6265 46.0971,-61.4829 46.1152,-61.0483 46.0016,-60.9766 46.0041,-60.9641 46.0478,-60.9256 46.0675,-60.8568 46.0638,-60.8098 46.0869,-60.7119 46.0663,-60.7214 45.9777,-60.789 45.8719,-60.8436</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>014200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215001</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215002</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215006</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1215008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1218001</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>ville de Sydney et comté de Cap-Breton</areaDesc>
+            <polygon>46.0863,-60.6864 46.1338,-60.6021 46.1916,-60.5551 46.2258,-60.4991 46.2948,-60.4173 46.3958,-60.3274 46.2624,-59.8902 46.0154,-59.538 45.7073,-60.1685 45.7243,-60.227 45.8236,-60.6728 45.8719,-60.8436 45.9777,-60.789 46.0663,-60.7214 46.0869,-60.7119 46.0863,-60.6864</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>014500</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1217</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1218001</value>
+            </geocode>
+        </area>
+    </info>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Environment Canada">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>Y/r/DA4s7TyCWeSQeLJnRtxQcrFqV0GTp5G14Z+s/BU=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>ClmyVhBMkoGtcIzf67Hqe07oyI8AkxPmmdRfWXIB2ePy1WtUjjN4VywQvrPEnHqJ
+TiCn35aiNsYFAnZKbgtwh6DniTCXmNgKU5E6+BjkmTGFtMFB9Mgy5qKUqvdiekBl
+PnE63CJVZcoV7AL9C46D25sreW6ML4q+gWZB6Ei53MYTBWzfoc5gWurNhJlNtzU6
+8pxUtXaHCueK+Hq6COXO/FLgvE32RKlSQxVMEBwoN9hE42sugigLRdcPIesYuENq
+GkP1c+4CMkcUY7zyGhCib7EDdqdUxsNdOHGgV+4k+UiYQmIlOb6h4APlF2j3AT39
+9IzNGyVNuYP6BVtOX8jtWg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHQDCCBiigAwIBAgIQVM83tR+H9HQcCcfTpntZ0jANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+MTA0MDYxNDI4NTNaFw0yMjA1MDUxNDI4NTJaMGgxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIEwZRdWViZWMxETAPBgNVBAcTCEdhdGluZWF1MRswGQYDVQQKExJFbnZpcm9u
+bWVudCBDYW5hZGExGDAWBgNVBAMMDyoud2VhdGhlci5nYy5jYTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAKN11t27vPi+ux94AEGuComDkX2rZYWwyE8s
+YMdJWg4TQxTljp4R8//VI9vO0c/1hH9AnkGCafH6k/9pVxkmJUZ32isJrTPS6SJK
+fejnFqVVjMEFpOkXcSy2LJ0I/FeaMJ4Ivs6dRGDSmnYQYFYHMvWGTEMBWCi2Q2G8
+4GSLKmKkJ6RC04nfyPEHuuyoS0APXnRDb4DZjVOxXb0zrpq1FvegWzCIpZiq3kCE
+JhXL3YSplB7yk1SWqjJROvj5AogyoLFiNW+S9Q1WrQ/efjxBYPmzj9VoWtcgezJB
+B4YJLP75XneF69Hxy+6OhitniSPMEtE1R0zB4G1axTNiWviH60sCAwEAAaOCA5Ew
+ggONMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFC4sBO19G7Jk7WQDbJicDuYRIyUY
+MB8GA1UdIwQYMBaAFIKicHTdvFM/z3vU981/p2DGCky/MGgGCCsGAQUFBwEBBFww
+WjAjBggrBgEFBQcwAYYXaHR0cDovL29jc3AuZW50cnVzdC5uZXQwMwYIKwYBBQUH
+MAKGJ2h0dHA6Ly9haWEuZW50cnVzdC5uZXQvbDFrLWNoYWluMjU2LmNlcjAzBgNV
+HR8ELDAqMCigJqAkhiJodHRwOi8vY3JsLmVudHJ1c3QubmV0L2xldmVsMWsuY3Js
+MIGdBgNVHREEgZUwgZKCDyoud2VhdGhlci5nYy5jYYINd2VhdGhlci5nYy5jYYIL
+bWV0ZW8uZ2MuY2GCDSoubWV0ZW8uZ2MuY2GCFSouYWxwaGEud2VhdGhlci5nYy5j
+YYITKi5hbHBoYS5tZXRlby5nYy5jYYIUKi5iZXRhLndlYXRoZXIuZ2MuY2GCEiou
+YmV0YS5tZXRlby5nYy5jYTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYB
+BQUHAwEGCCsGAQUFBwMCMEwGA1UdIARFMEMwNwYKYIZIAYb6bAoBBTApMCcGCCsG
+AQUFBwIBFhtodHRwczovL3d3dy5lbnRydXN0Lm5ldC9ycGEwCAYGZ4EMAQICMIIB
+fwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAl
+CBcvo6odBxPTDAAAAXinlhQbAAAEAwBIMEYCIQCjOHLzIFyW41zO3lT2ZShXTc8M
+hMigKHnFLVjQJnqRkgIhALIWlaEWCK6XITu3RUxkKlXtR56NDU3L7/iVG62O+Tdj
+AHYAUaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeUAAAF4p5YUFwAABAMA
+RzBFAiEAvm6gY+CUKh7AaiqwZ5TUcN/GtcMA2aHOM+FsXRJWJHsCIHjzurWrQ0aK
+IrMJsRdzMxUGavZ0IAv21eeqbrVoB+0hAHYARqVV63X6kSAwtaKJafTzfREsQXS+
+/Um4havy/HD+bUcAAAF4p5YUdgAABAMARzBFAiBbDo4h+iE+c+IlbPLFHEhyXWe9
+7C1O7KrFf76JQ6pcRgIhANVhTgXzbVEOM9MHz9Hp9NwmHhhuQUOE7zNrVDlrs5rG
+MA0GCSqGSIb3DQEBCwUAA4IBAQBPGB3a+dTaJ+raWqJKoMauRMr8WaskBj3ra1nH
+/VFeSvobDurUW59LZwY7Q8MAFDGGqr07yGZTBcb58EBJVFT55UHTRWrMJ6pfBApJ
+oYLi9ivyS/Tc4aUU/TZo8tTRUgkuEyw0gK029JAqqUUwKL0YwcRTlop5EpsittNV
+cQS83d+l0jhp7lRSIN8P6UlrteRP5l/87SHO4FO5j86DvVaRbjjxRHTVJ1ot0HiY
+qlg44k8IzfgTn9CzImGRqSc4C0CBK7VqXF2dFca9Q41+5FPvdt/reNViL3v+lPLM
+AojtY6LH2dFDcUqfz/f44MO0PKvlApB6GyCG+EfBTW02TtJx</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></alert>

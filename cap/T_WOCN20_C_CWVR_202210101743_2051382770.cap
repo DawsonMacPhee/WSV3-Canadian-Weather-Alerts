@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.124.2051382770.2022</identifier>
+    <sender>cap-pac@canada.ca</sender>
+    <sent>2022-10-10T17:44:34-00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>Env. Can. - Can. Met. Ctr. – Montréal</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.0</code>
+    <code>layer:WPAM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.1</code>
+    <code>layer:SOREM:2.0</code>
+    <note>Service Notice - June 2022: The Environment and Climate Change Canada (ECCC) CAP Service periodically undergoes changes and additions as the business of alerting evolves. For June 2022...1) New changes to the Wireless Public Alerting Message Layer (WPAM) to take advantage of the new UpdateX feature recently deployed in the Canadian Cell Broadcasting Environment, 2) minor improvements in the audience facing wording of messages. For more information on these changes and other additions, you are invited to subscribe to the following mailing list: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info | Notification de service - juin 2022: Le service du PAC d’Environnement et Changement climatique Canada (ECCC) subit périodiquement des changements et ajouts à mesure que le système d’alerte évolue. Pour juin 2022... 1) Il y a de nouveaux changements à la couche du Service d’alertes sans fil au public (WPAM) afin de profiter des avantages des nouvelles fonctionnalités d’UpdateX récemment déployées dans l’environnement de diffusion sans fil canadien, 2) des améliorations mineures à la formulation de messages destinés à l’auditoire. Pour plus d’informations sur ces changements ainsi que sur d’autres ajouts, vous êtes invités à vous inscrire à la liste de diffusion suivante: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info</note>
+    <references>cap-pac@canada.ca,urn:oid:2.49.0.1.124.1430537515.2022,2022-10-03T18:54:55-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3029449184.2022,2022-10-04T08:17:17-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0948396464.2022,2022-10-04T18:06:06-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1703495231.2022,2022-10-05T08:01:10-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1256706506.2022,2022-10-05T08:02:10-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1228509986.2022,2022-10-05T18:51:43-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2370881304.2022,2022-10-06T08:22:24-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1811643550.2022,2022-10-06T08:23:24-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1822770988.2022,2022-10-06T15:07:54-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2159486582.2022,2022-10-06T19:53:09-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2670651828.2022,2022-10-07T09:59:42-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1445417796.2022,2022-10-07T19:56:00-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3823122708.2022,2022-10-08T09:33:58-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2238411176.2022,2022-10-08T19:26:27-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0870828257.2022,2022-10-08T19:27:27-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3991060365.2022,2022-10-09T08:44:12-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3030735994.2022,2022-10-09T14:22:54-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0519658019.2022,2022-10-09T14:23:54-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2493016636.2022,2022-10-09T17:38:49-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2190724667.2022,2022-10-09T23:20:06-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0595930621.2022,2022-10-10T12:10:29-00:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Env</category>
+        <category>Health</category>
+        <category>Geo</category>
+        <category>Met</category>
+        <category>Transport</category>
+        <event>air quality</event>
+        <responseType>Monitor</responseType>
+        <urgency>Future</urgency>
+        <severity>Moderate</severity>
+        <certainty>Possible</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>airQuality</value>
+        </eventCode>
+        <effective>2022-10-10T17:43:34-00:00</effective>
+        <expires>2022-10-11T09:43:34-00:00</expires>
+        <senderName>Environment Canada, the B.C. Ministry of Environment</senderName>
+        <headline>special air quality statement in effect</headline>
+        <description>
+Smoky Skies Bulletin — issued October 10, 2022
+
+The regions of BC listed below are being impacted or are likely to be impacted by wildfire smoke over the next 24-48 hours.
+
+East Kootenay - south including Cranbrook
+Kootenay Lake
+
+During a wildfire, smoke conditions can change quickly over short distances and can vary considerably hour-by-hour.
+
+Wildfire smoke is a natural part of our environment but it is important to be mindful that exposure to smoke may affect your health. 
+
+People with pre-existing health conditions, respiratory infections such as COVID-19, older adults, pregnant women and infants, children, and sensitive individuals are more likely to experience health effects from smoke exposure.
+
+###
+
+For more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.
+
+Visit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.
+
+Please continue to monitor alerts and forecasts issued by Environment Canada.
+</description>
+        <instruction>
+If you or those in your care are exposed to wildfire smoke, consider taking extra precautions to reduce your exposure. Wildfire smoke is a constantly-changing mixture of particles and gases which includes many chemicals that can harm your health. For more details, please consult www.canada.ca/en/environment-climate-change/services/air-quality-health-index/wildfire-smoke.html.
+</instruction>
+        <web>http://weather.gc.ca/warnings/index_e.html?prov=bc</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20221010174334102/WO_20_80_CWVR/SAS/185355395590775878202210030502_WO_20_80_CWVR/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:6433 M:37402 C:64601</value>
+        </parameter>
+        <parameter>
+            <valueName>profile:CAP-CP:0.4:MinorChange</valueName>
+            <value>text</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>special air quality statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>British Columbia</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_20_80_CWVR</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value>084400</value>
+        </parameter>
+        <area>
+            <areaDesc>Kootenay Lake</areaDesc>
+            <polygon>49.0992,-117.0727 49.4054,-117.1264 49.6799,-117.141 50.2203,-117.3089 50.7499,-117.4199 50.7584,-117.1084 50.7499,-116.83 50.3766,-116.6106 49.9999,-116.4199 49.9055,-116.3968 49.8129,-116.3836 49.4127,-116.2868 49.0007,-116.2208 48.9995,-116.4059 48.9993,-116.9629 48.9991,-117.0272 49.0992,-117.0727</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>084400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903004</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903013</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903017</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903023</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903039</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903041</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903047</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903807</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>East Kootenay - south including Cranbrook</areaDesc>
+            <polygon>48.9998,-114.9505 48.9988,-115.1307 48.9995,-115.6153 49.0007,-116.2208 49.4161,-116.3195 49.8129,-116.3836 49.8395,-115.3497 49.66,-115.381 49.4561,-115.192 49.2999,-115.081 49.1529,-115.0088 48.9998,-114.9505</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>084510</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901019</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901801</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901803</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901805</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903013</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Env</category>
+        <category>Health</category>
+        <category>Geo</category>
+        <category>Met</category>
+        <category>Transport</category>
+        <event>qualité de l'air</event>
+        <responseType>Monitor</responseType>
+        <urgency>Future</urgency>
+        <severity>Moderate</severity>
+        <certainty>Possible</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>airQuality</value>
+        </eventCode>
+        <effective>2022-10-10T17:43:34-00:00</effective>
+        <expires>2022-10-11T09:43:34-00:00</expires>
+        <senderName>Environnement Canada, le B.C. Ministry of Environment</senderName>
+        <headline>bulletin spécial sur la qualité de l'air en vigueur</headline>
+        <description>
+Avis de ciel enfumé - émis le 10 octobre 2022
+
+Les régions de la Colombie-Britannique indiquées ci-dessous sont touchées ou seront probablement touchées par de la fumée de feux incontrôlés au cours des 24 à 48 prochaines heures.
+
+Kootenay Est - partie sud, y compris Cranbrook
+Lac Kootenay
+
+Pendant un feu incontrôlé, les concentrations de fumée peuvent changer rapidement sur de courtes distances et varier considérablement d'heure en heure.
+
+La fumée de feux incontrôlés est un élément naturel de l'environnement, mais il ne faut pas oublier que l'exposition à la fumée peut nuire à la santé.
+
+Les personnes souffrant de problèmes de santé préexistants ou d'infections respiratoires comme la COVID-19 ainsi que les personnes âgées, les femmes enceintes, les bébés, les enfants et les personnes sensibles sont plus susceptibles d'être affectés par une exposition à la fumée.
+
+###
+
+Pour plus d’information sur la qualité de l’air actuelle, veuillez consulter www2.gov.bc.ca/gov/content/environment/air-land-water/air (anglais seulement).
+
+Consultez le site www.coteairsante.ca pour en savoir plus sur comment réduire les risques pour la santé et comment contribuer à réduire la pollution, de même que pour connaître les valeurs actuelles et prévues de la CAS.
+
+Veuillez continuer à surveiller les alertes et les prévisions émises par Environnement Canada.
+</description>
+        <instruction>
+Si vous ou vos proches êtes exposés à la fumée de feux de forêt, prenez des précautions supplémentaires pour réduire le plus possible votre exposition. La fumée de feux de forêt est un mélange de particules et de gaz en constante évolution qui contient de nombreux produits chimiques pouvant présenter des risques pour la santé. Pour plus de détails, consultez le site www.canada.ca/fr/environnement-changement-climatique/services/cote-air-sante/fumee-feux-foret-qualite.html.
+</instruction>
+        <web>http://meteo.gc.ca/warnings/index_f.html?prov=bc</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20221010174334102/WO_20_80_CWVR/SAS/185355395590775878202210030502_WO_20_80_CWVR/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:6433 M:37402 C:64601</value>
+        </parameter>
+        <parameter>
+            <valueName>profile:CAP-CP:0.4:MinorChange</valueName>
+            <value>text</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>bulletin spécial sur la qualité de l'air</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Colombie-Britannique</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_20_80_CWVR</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value>084400</value>
+        </parameter>
+        <area>
+            <areaDesc>lac Kootenay</areaDesc>
+            <polygon>49.0992,-117.0727 49.4054,-117.1264 49.6799,-117.141 50.2203,-117.3089 50.7499,-117.4199 50.7584,-117.1084 50.7499,-116.83 50.3766,-116.6106 49.9999,-116.4199 49.9055,-116.3968 49.8129,-116.3836 49.4127,-116.2868 49.0007,-116.2208 48.9995,-116.4059 48.9993,-116.9629 48.9991,-117.0272 49.0992,-117.0727</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>084400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903004</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903013</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903017</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903023</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903039</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903041</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903047</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903807</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Kootenay Est - sud incluant Cranbrook</areaDesc>
+            <polygon>48.9998,-114.9505 48.9988,-115.1307 48.9995,-115.6153 49.0007,-116.2208 49.4161,-116.3195 49.8129,-116.3836 49.8395,-115.3497 49.66,-115.381 49.4561,-115.192 49.2999,-115.081 49.1529,-115.0088 48.9998,-114.9505</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>084510</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901019</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901801</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901803</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5901805</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5903013</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-CA</language>
+        <category>Env</category>
+        <category>Health</category>
+        <category>Geo</category>
+        <category>Met</category>
+        <category>Transport</category>
+        <event>air quality</event>
+        <responseType>AllClear</responseType>
+        <urgency>Past</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>airQuality</value>
+        </eventCode>
+        <effective>2022-10-10T17:43:34-00:00</effective>
+        <expires>2022-10-10T18:43:34-00:00</expires>
+        <senderName>Environment Canada, the B.C. Ministry of Environment</senderName>
+        <headline>special air quality statement ended</headline>
+        <description>
+###
+</description>
+        <instruction/>
+        <web>http://weather.gc.ca/warnings/index_e.html?prov=bc</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20221010174334102/WO_20_80_CWVR/SAS/185355395590775878202210030502_WO_20_80_CWVR/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:6433 M:37402 C:64601</value>
+        </parameter>
+        <parameter>
+            <valueName>profile:CAP-CP:0.4:MinorChange</valueName>
+            <value>none</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>special air quality statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>British Columbia</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_20_80_CWVR</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <area>
+            <areaDesc>Similkameen</areaDesc>
+            <polygon>49.6368,-120.0011 49.3375,-119.9892 48.9994,-120.0009 48.9994,-120.0025 48.9974,-120.6331 49.0003,-121.1942 49.0006,-121.2289 49,-121.3016 49.3145,-121.3808 49.3212,-121.3228 49.3216,-121.3198 49.3396,-121.1638 49.3361,-121.1192 49.3324,-121.0736 49.3456,-121.0435 49.3765,-120.9728 49.3465,-120.9164 49.6114,-120.4696 49.8499,-120.0012 49.7448,-119.9965 49.6368,-120.0011</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>083400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907024</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907051</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907053</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907055</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907807</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907809</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5909016</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>B.C. North Peace River</areaDesc>
+            <polygon>56.0691,-120.0013 55.9599,-120.0013 55.8971,-120.2857 55.8267,-120.6878 55.7305,-121.6606 55.7146,-121.8504 55.7116,-122.0337 56.2943,-122.6457 56.9577,-123.2874 56.9999,-123.3 57.058,-123.1581 57.0999,-122.9999 57.1397,-121.5476 57.0999,-120.0013 56.7699,-120.0013 56.4573,-119.9861 56.2107,-119.9982 56.1476,-120.0013 56.0691,-120.0013</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087320</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955021</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955023</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955034</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955042</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955801</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955803</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955804</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955808</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Env</category>
+        <category>Health</category>
+        <category>Geo</category>
+        <category>Met</category>
+        <category>Transport</category>
+        <event>qualité de l'air</event>
+        <responseType>AllClear</responseType>
+        <urgency>Past</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>airQuality</value>
+        </eventCode>
+        <effective>2022-10-10T17:43:34-00:00</effective>
+        <expires>2022-10-10T18:43:34-00:00</expires>
+        <senderName>Environnement Canada, le B.C. Ministry of Environment</senderName>
+        <headline>bulletin spécial sur la qualité de l'air annulé</headline>
+        <description>
+###
+</description>
+        <instruction/>
+        <web>http://meteo.gc.ca/warnings/index_f.html?prov=bc</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20221010174334102/WO_20_80_CWVR/SAS/185355395590775878202210030502_WO_20_80_CWVR/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:6433 M:37402 C:64601</value>
+        </parameter>
+        <parameter>
+            <valueName>profile:CAP-CP:0.4:MinorChange</valueName>
+            <value>none</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>bulletin spécial sur la qualité de l'air</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Colombie-Britannique</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_20_80_CWVR</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <area>
+            <areaDesc>Similkameen</areaDesc>
+            <polygon>49.6368,-120.0011 49.3375,-119.9892 48.9994,-120.0009 48.9994,-120.0025 48.9974,-120.6331 49.0003,-121.1942 49.0006,-121.2289 49,-121.3016 49.3145,-121.3808 49.3212,-121.3228 49.3216,-121.3198 49.3396,-121.1638 49.3361,-121.1192 49.3324,-121.0736 49.3456,-121.0435 49.3765,-120.9728 49.3465,-120.9164 49.6114,-120.4696 49.8499,-120.0012 49.7448,-119.9965 49.6368,-120.0011</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>083400</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907024</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907051</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907053</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907055</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907807</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5907809</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5909016</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>rivière de la Paix Nord C.-B.</areaDesc>
+            <polygon>56.0691,-120.0013 55.9599,-120.0013 55.8971,-120.2857 55.8267,-120.6878 55.7305,-121.6606 55.7146,-121.8504 55.7116,-122.0337 56.2943,-122.6457 56.9577,-123.2874 56.9999,-123.3 57.058,-123.1581 57.0999,-122.9999 57.1397,-121.5476 57.0999,-120.0013 56.7699,-120.0013 56.4573,-119.9861 56.2107,-119.9982 56.1476,-120.0013 56.0691,-120.0013</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087320</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955021</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955023</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955034</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955042</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955801</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955803</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955804</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955808</value>
+            </geocode>
+        </area>
+    </info>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Environment Canada">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>ea+tSkXJ2eeVzxzQE8y3i52zcyn7gVtjw1bYad0VvFI=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>h3VvHGw3leW7tw9O3wBtELts+ipHvEApEXQiQiOZeR3KblUPaVp1xe+nPGSYJ+Ke
+66E7HdRCo0B07qCBZLQHJIidYQD5wFnJ0H8Oq5I3G1FI9fH4ZaGYPC5yzJh8qIL6
+eH4MovDUQByW41BTRgL17aShKIHQjA+gtqUDSwDAsJod/XJYijBYSSxKbiO/XK+b
+MS6LQCnNpFKBn3V7lZO9Rz6H+WgWK8W2WcEwm/IZ+++MQuZcRH8Csi9OViMx0T3h
+Nd+rk5cRvtlfhptcwCE4/JPaaTkcTgrhq/sdRV1vyZlRcz7YllQMhPYa0JOrNDgR
+Sj0As3zyXZWUPa7f4s4FMg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHQDCCBiigAwIBAgIQVM83tR+H9HQcCcfTpntZ0jANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+MTA0MDYxNDI4NTNaFw0yMjA1MDUxNDI4NTJaMGgxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIEwZRdWViZWMxETAPBgNVBAcTCEdhdGluZWF1MRswGQYDVQQKExJFbnZpcm9u
+bWVudCBDYW5hZGExGDAWBgNVBAMMDyoud2VhdGhlci5nYy5jYTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAKN11t27vPi+ux94AEGuComDkX2rZYWwyE8s
+YMdJWg4TQxTljp4R8//VI9vO0c/1hH9AnkGCafH6k/9pVxkmJUZ32isJrTPS6SJK
+fejnFqVVjMEFpOkXcSy2LJ0I/FeaMJ4Ivs6dRGDSmnYQYFYHMvWGTEMBWCi2Q2G8
+4GSLKmKkJ6RC04nfyPEHuuyoS0APXnRDb4DZjVOxXb0zrpq1FvegWzCIpZiq3kCE
+JhXL3YSplB7yk1SWqjJROvj5AogyoLFiNW+S9Q1WrQ/efjxBYPmzj9VoWtcgezJB
+B4YJLP75XneF69Hxy+6OhitniSPMEtE1R0zB4G1axTNiWviH60sCAwEAAaOCA5Ew
+ggONMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFC4sBO19G7Jk7WQDbJicDuYRIyUY
+MB8GA1UdIwQYMBaAFIKicHTdvFM/z3vU981/p2DGCky/MGgGCCsGAQUFBwEBBFww
+WjAjBggrBgEFBQcwAYYXaHR0cDovL29jc3AuZW50cnVzdC5uZXQwMwYIKwYBBQUH
+MAKGJ2h0dHA6Ly9haWEuZW50cnVzdC5uZXQvbDFrLWNoYWluMjU2LmNlcjAzBgNV
+HR8ELDAqMCigJqAkhiJodHRwOi8vY3JsLmVudHJ1c3QubmV0L2xldmVsMWsuY3Js
+MIGdBgNVHREEgZUwgZKCDyoud2VhdGhlci5nYy5jYYINd2VhdGhlci5nYy5jYYIL
+bWV0ZW8uZ2MuY2GCDSoubWV0ZW8uZ2MuY2GCFSouYWxwaGEud2VhdGhlci5nYy5j
+YYITKi5hbHBoYS5tZXRlby5nYy5jYYIUKi5iZXRhLndlYXRoZXIuZ2MuY2GCEiou
+YmV0YS5tZXRlby5nYy5jYTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYB
+BQUHAwEGCCsGAQUFBwMCMEwGA1UdIARFMEMwNwYKYIZIAYb6bAoBBTApMCcGCCsG
+AQUFBwIBFhtodHRwczovL3d3dy5lbnRydXN0Lm5ldC9ycGEwCAYGZ4EMAQICMIIB
+fwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAl
+CBcvo6odBxPTDAAAAXinlhQbAAAEAwBIMEYCIQCjOHLzIFyW41zO3lT2ZShXTc8M
+hMigKHnFLVjQJnqRkgIhALIWlaEWCK6XITu3RUxkKlXtR56NDU3L7/iVG62O+Tdj
+AHYAUaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeUAAAF4p5YUFwAABAMA
+RzBFAiEAvm6gY+CUKh7AaiqwZ5TUcN/GtcMA2aHOM+FsXRJWJHsCIHjzurWrQ0aK
+IrMJsRdzMxUGavZ0IAv21eeqbrVoB+0hAHYARqVV63X6kSAwtaKJafTzfREsQXS+
+/Um4havy/HD+bUcAAAF4p5YUdgAABAMARzBFAiBbDo4h+iE+c+IlbPLFHEhyXWe9
+7C1O7KrFf76JQ6pcRgIhANVhTgXzbVEOM9MHz9Hp9NwmHhhuQUOE7zNrVDlrs5rG
+MA0GCSqGSIb3DQEBCwUAA4IBAQBPGB3a+dTaJ+raWqJKoMauRMr8WaskBj3ra1nH
+/VFeSvobDurUW59LZwY7Q8MAFDGGqr07yGZTBcb58EBJVFT55UHTRWrMJ6pfBApJ
+oYLi9ivyS/Tc4aUU/TZo8tTRUgkuEyw0gK029JAqqUUwKL0YwcRTlop5EpsittNV
+cQS83d+l0jhp7lRSIN8P6UlrteRP5l/87SHO4FO5j86DvVaRbjjxRHTVJ1ot0HiY
+qlg44k8IzfgTn9CzImGRqSc4C0CBK7VqXF2dFca9Q41+5FPvdt/reNViL3v+lPLM
+AojtY6LH2dFDcUqfz/f44MO0PKvlApB6GyCG+EfBTW02TtJx</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></alert>
