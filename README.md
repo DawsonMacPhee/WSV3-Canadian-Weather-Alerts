@@ -18,5 +18,4 @@ This project takes Canadian weather alerts, converts them to a format usable by 
 
 - If the program errors out for any reason, please raise a ticket stating what the error is and attach the CAP files you have in the `./cap` directory. 
 - WSV3 loads data hourly - meaning that you'll need to run the python script once an hour, at the turn of the hour, with the most up to date CAP files in order to generate the correct warning file name.
-- Right now, the data loaded is in English. There are French CAP files available though, so if there is a demand to release a French version, just raise a ticket and I can modify the program without too much difficulty.
 - À l'heure actuelle, les données chargées sont en anglais. Il existe cependant des fichiers CAP français, donc s'il y a une demande pour publier une version française, il suffit de créer un ticket et je peux modifier le programme sans trop de difficulté.
