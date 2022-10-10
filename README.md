@@ -5,7 +5,7 @@ This project takes Canadian weather alerts, converts them to a format usable by 
 ### Usage
 
 - Fork the repo
-- Set up GitHub Pages for the main branch in settings (`https://pages.github.com`)
+- Set up GitHub Pages for the main branch in settings if it's not already set up in your fork (`https://pages.github.com`)
 - Clone the forked repo locally on your machine
 - Download the most recent alert CAP files from `https://dd.weather.gc.ca/alerts/cap/`
 - Place the downloaded files into the `./cap` directory and remove the old CAP files
