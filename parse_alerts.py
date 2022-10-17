@@ -80,7 +80,7 @@ def build_warnings_file(input, count):
         effective = datetime.strptime(input[2][:len(input[2])-6], "%Y-%m-%dT%H:%M:%S")
         expires = datetime.strptime(input[3][:len(input[3])-6], "%Y-%m-%dT%H:%M:%S")
 
-        output += "\x01\n####018001288####\nWUUS54 ECCC "
+        output += "\x01\n####018001288####\nWUCA01 ECCC "
         output += effective.strftime("%d%H%M")+ "\n\n/O.NEW.ECCC"
         output += get_event_type(input[1])
         output += ".W." + count
