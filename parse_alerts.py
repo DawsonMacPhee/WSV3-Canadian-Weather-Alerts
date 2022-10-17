@@ -39,8 +39,11 @@ def format_lat_long(input):
     output = "LAT...LON "
     for pair in input.split(" "):
         for coord in pair.split(","):
-            parsed = coord.split(".")
-            output += parsed[0].replace("-", "") + parsed[1][:len(parsed[1]) - 2].replace("-", "") + " "
+            parsed = round(float(coord), 2)
+            parsed = str(parsed).replace("-", "").split(".")
+            if len(parsed[1]) == 1:
+                parsed[1] += "0"
+            output += parsed[0] + parsed[1] + " "
     return output
 
 def parse_cap_file(input):
@@ -74,13 +77,15 @@ def parse_cap_file(input):
 def build_warnings_file(input, count):
     output = ""
     for area in input[6]:
-        output += "\x01\n/0.NEW.ECCC"
+        effective = datetime.strptime(input[2][:len(input[2])-6], "%Y-%m-%dT%H:%M:%S")
+        expires = datetime.strptime(input[3][:len(input[3])-6], "%Y-%m-%dT%H:%M:%S")
+
+        output += "\x01\n####018001288####\nWUUS54 ECCC "
+        output += effective.strftime("%d%H%M")+ "\n\n/O.NEW.ECCC"
         output += get_event_type(input[1])
         output += ".W." + count
 
-        effective = datetime.strptime(input[2][:len(input[2])-6], "%Y-%m-%dT%H:%M:%S")
         effective = effective.strftime("%y%m%dT%H%MZ")
-        expires = datetime.strptime(input[3][:len(input[3])-6], "%Y-%m-%dT%H:%M:%S")
         expires = expires.strftime("%y%m%dT%H%MZ")
 
         output += "." + effective + "-" + expires + "/\n\n"
