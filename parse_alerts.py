@@ -2,6 +2,9 @@ from xml.dom.minidom import parseString
 from datetime import datetime
 import os
 import sys
+import urllib.request
+import ssl
+import json
 
 def get_event_type(input):
     match input:
@@ -10,6 +13,12 @@ def get_event_type(input):
         case "thunderstorm":
             return ".SV"
         case "snow squall":
+            return ".SQ"
+        case "snowfall":
+            return ".SQ"
+        case "winter storm":
+            return ".SQ"
+        case "blizzard":
             return ".SQ"
         case "spcl marine":
             return ".MA"
@@ -25,16 +34,20 @@ def get_event_type(input):
             return ".WI"
         case "waterspout":
             return ".LW"
-        case "freeze rain":
+        case "freezing rain":
             return ".FZ"
         case "rainfall":
             return ".FA"
-        case "cold":
+        case "extreme cold":
             return ".EC"
         case "frost":
             return ".EC"
         case "heat":
             return ".EH"
+        case "weather":
+            return ".ADVISORY"
+        case _:
+            return ".MISSING_CODE"
 
 def format_lat_long(input):
     output = "LAT...LON "
@@ -100,8 +113,8 @@ def build_warnings_file(input, count):
 
     return output
 
+warnings = ""
 if len(sys.argv) == 2 and sys.argv[1] == "--CAP":
-    warnings = ""
     for file in os.listdir("./cap"):
         text_file = open("./cap/" + file, "r")
         text = text_file.read()
@@ -109,7 +122,13 @@ if len(sys.argv) == 2 and sys.argv[1] == "--CAP":
         parsed = parse_cap_file(text)
         warnings += build_warnings_file(parsed, "0001")
 else :
-    warnings = ""
+    ssl._create_default_https_context = ssl._create_unverified_context
+    alerts_request = urllib.request.urlopen("https://geo.weather.gc.ca/geomet?service=wfs&version=2.0.0&request=GetFeature&typeNames=ALERTS&outputFormat=GeoJSON").read()
+    alerts_request = json.loads(alerts_request)
+    for entry in alerts_request['features']:
+        alert = urllib.request.urlopen(entry['properties']['url']).read()
+        parsed = parse_cap_file(alert)
+        warnings += build_warnings_file(parsed, "0001")
 
 date = datetime.utcnow()
 with open("./resources/warnings_" + date.strftime("%Y%m%d_%H") + ".txt", "w") as text_file:
