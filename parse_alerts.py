@@ -116,11 +116,12 @@ def build_warnings_file(input, count):
 warnings = ""
 if len(sys.argv) == 2 and sys.argv[1] == "--CAP":
     for file in os.listdir("./cap"):
-        text_file = open("./cap/" + file, "r")
-        text = text_file.read()
-        text_file.close()
-        parsed = parse_cap_file(text)
-        warnings += build_warnings_file(parsed, "0001")
+        if file != ".gitkeep":
+            text_file = open("./cap/" + file, "r")
+            text = text_file.read()
+            text_file.close()
+            parsed = parse_cap_file(text)
+            warnings += build_warnings_file(parsed, "0001")
 else :
     ssl._create_default_https_context = ssl._create_unverified_context
     alerts_request = urllib.request.urlopen("https://geo.weather.gc.ca/geomet?service=wfs&version=2.0.0&request=GetFeature&typeNames=ALERTS&outputFormat=GeoJSON").read()
