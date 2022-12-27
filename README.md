@@ -7,12 +7,18 @@ This project takes Canadian weather alerts, converts them to a format usable by 
 1. Fork the repo
 2. If it's not already set up in your fork, set up GitHub Pages for the main branch in settings ([https://pages.github.com](https://pages.github.com))
 3. Clone the forked repo locally on your machine
-4. Download the most recent alert CAP files from [https://dd.weather.gc.ca/alerts/cap/](https://dd.weather.gc.ca/alerts/cap/)
-5. Place the downloaded files into the `./cap` directory and remove the old CAP files
-6. Run the python script using `python3 ./parse_alerts.py`
-7. Push to the repo using `git add .` then `git commit -m "Updated Alerts"` then `git push`
-8. Check that GitHub pages deployed by locating your newly generated warning files at `https://YOUR_USERNAME.github.io/WSV3-Canadian-Weather-Alerts/` (ex. [https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/](https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/)) NOTE: It may take a couple minutes for the updates to deploy
-9. Launch WSV3 and set up `Severe Warnings` -> `Data` to import via the `Custom severe warnings server` option using the url `https://YOUR_USERNAME.github.io/WSV3-Canadian-Weather-Alerts/resources/` (ex. [https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/resources/](https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/resources/))
+4. Load alerts using one of the two options below
+5. Push to the repo using `git add .` then `git commit -m "Updated Alerts"` then `git push`
+6. Check that GitHub pages deployed by locating your newly generated warning files at `https://YOUR_USERNAME.github.io/WSV3-Canadian-Weather-Alerts/` (ex. [https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/](https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/)) NOTE: It may take a couple minutes for the updates to deploy
+7. Launch WSV3 and set up `Severe Warnings` -> `Data` to import via the `Custom severe warnings server` option using the url `https://YOUR_USERNAME.github.io/WSV3-Canadian-Weather-Alerts/resources/` (ex. [https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/resources/](https://dawsonmacphee.github.io/WSV3-Canadian-Weather-Alerts/resources/))
+
+## To Load Current Alerts Automatically
+1. Run the python script using `python3 ./parse_alerts.py`
+
+## To Load Alert Files Manually
+1. Download the most recent alert CAP files from [https://dd.weather.gc.ca/alerts/cap/](https://dd.weather.gc.ca/alerts/cap/)
+2. Place the downloaded files into the `./cap` directory and remove the old CAP files
+3. Run the python script using `python3 ./parse_alerts.py --CAP`
 
 ### Help
 
