@@ -1,6 +1,7 @@
 from xml.dom.minidom import parseString
 from datetime import datetime
 import os
+import sys
 
 def get_event_type(input):
     match input:
@@ -99,13 +100,16 @@ def build_warnings_file(input, count):
 
     return output
 
-warnings = ""
-for file in os.listdir("./cap"):
-    text_file = open("./cap/" + file, "r")
-    text = text_file.read()
-    text_file.close()
-    parsed = parse_cap_file(text)
-    warnings += build_warnings_file(parsed, "0001")
+if len(sys.argv) == 2 and sys.argv[1] == "--CAP":
+    warnings = ""
+    for file in os.listdir("./cap"):
+        text_file = open("./cap/" + file, "r")
+        text = text_file.read()
+        text_file.close()
+        parsed = parse_cap_file(text)
+        warnings += build_warnings_file(parsed, "0001")
+else :
+    warnings = ""
 
 date = datetime.utcnow()
 with open("./resources/warnings_" + date.strftime("%Y%m%d_%H") + ".txt", "w") as text_file:
