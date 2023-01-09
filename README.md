@@ -20,7 +20,10 @@ This project takes Canadian weather alerts, converts them to a format usable by 
 2. Place the downloaded files into the `./cap` directory and remove the old CAP files
 3. Run the python script using `python3 ./parse_alerts.py --CAP`
 
-### Help
+## Cronjob Execution
+If prefered, the given cronjob.sh file can be used to automate updates. Instructions to start a cronjob on linux can be found here: https://linuxhint.com/schedule_crontab_job_every_hour/. Please note that in order for a cronjob to execute, the computer it's running on must be turned on.
+
+## Help
 
 - If the program errors out for any reason, please raise a ticket stating what the error is and attach the CAP files you have in the `./cap` directory. 
 - WSV3 loads data hourly - meaning that you'll need to run the python script once an hour, at the turn of the hour, with the most up to date CAP files in order to generate the correct warning file name.
