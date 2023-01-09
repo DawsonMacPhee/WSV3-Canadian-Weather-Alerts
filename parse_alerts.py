@@ -1,5 +1,5 @@
 from xml.dom.minidom import parseString
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import sys
 import urllib.request
@@ -132,5 +132,8 @@ else :
         warnings += build_warnings_file(parsed, "0001")
 
 date = datetime.utcnow()
+with open("./resources/warnings_" + date.strftime("%Y%m%d_%H") + ".txt", "w") as text_file:
+    text_file.write(warnings)
+date = date + timedelta(hours = 1)
 with open("./resources/warnings_" + date.strftime("%Y%m%d_%H") + ".txt", "w") as text_file:
     text_file.write(warnings)
