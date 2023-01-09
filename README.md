@@ -21,7 +21,7 @@ This project takes Canadian weather alerts, converts them to a format usable by 
 3. Run the python script using `python3 ./parse_alerts.py --CAP`
 
 ## Cronjob Execution
-If prefered, the given cronjob.sh file can be used to automate updates. Instructions to start a cronjob on linux can be found here: https://linuxhint.com/schedule_crontab_job_every_hour/. Please note that in order for a cronjob to execute, the computer it's running on must be turned on.
+If prefered, the given `cronjob.sh` file can be used to automate updates. Instructions to start a cronjob on linux can be found here: https://linuxhint.com/schedule_crontab_job_every_hour/. Please note that in order for a cronjob to execute, the computer it's running on must be turned on.
 
 ## Help
 
